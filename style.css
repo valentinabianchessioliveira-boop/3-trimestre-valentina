@@ -1,0 +1,26 @@
+:root{
+    --cor-de-fundo:#87CEFA;
+    --cor-texto:#DCDCDC;
+    --frente-cartao: #48D1CC;
+    --verso-cartao: #6495ED;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+.cartao__conteudo{
+    background-color: var(--frente-cartao);
+    text-align: center;
+}
+
+.cartao__conteudo h3{ 
+ color: var(--cor-texto);
+ border: 1px solid var(--cor-de-fundo);
+text-align: left;
+padding: o.5rem;
+margin: o.6rem;
+position: absolute;
+border-radius: 0.6rem;
+font-size: 1vw;
+}
